@@ -8,7 +8,6 @@ by using the Search API to query for businesses by a search term and location,
 and the Business API to query additional information about the top result
 from the search query.
 
-## Steps to run
 
 ## Requirements
 
@@ -22,11 +21,11 @@ To install the project, follow these instructions.
 
 Deploy the project in any platform xampp,wampp or nginx. 
 
-#Database
+# Database
    Mysql database 
    import demopro.sql file 
 
-  ###The settings for the mysql is already in .env file which is included
+  ### The settings for the mysql is already in .env file which is included
 ### Open the url in the browser to demonstrate the homepage :
 
  http://localhost/myproject.test/web/actions/demo-module/default/task
