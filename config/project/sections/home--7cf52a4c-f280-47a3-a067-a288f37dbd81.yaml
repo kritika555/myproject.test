@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  a00cdfe6-f9ce-4683-90ce-fc81d296b749: # Craft CMS Demo
+    enabledByDefault: true
+    hasUrls: true
+    template: index
+    uriFormat: __home__
+type: single

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test Project </title>
+</head>
+<body>
+
+<h1>WELCOME TO HOMEPAGE OF MY TEST PROJECT</h1>
+<p> This is a presentation of to showcase 20 restaurants located in Melbourne CBD using Yelp API<p>
+
+<ol>	
+    {% for key,value in data %}	
+
+	    	<li>
+		    	<ul>
+				    <li>Name : {{value.name }}</li>
+				    <li>Rating: {{value.rating }}
+				    <li><img src="{{value.image_url }} " height="50" width="50" ></img></li>
+				    <li>Phone: {{value.phone }}</li>	
+				</ul>
+				<br/>
+			</li>
+		
+	{% endfor %}
+
+<ol>	
+
+</body>
+</html>

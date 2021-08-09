@@ -1,0 +1,30 @@
+dateModified: 1628151697
+email:
+  fromEmail: kritika01@gmail.com
+  fromName: 'Craft CMS Demo'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    7cf52a4c-f280-47a3-a067-a288f37dbd81: Home # Home
+    42a502c3-75c8-4511-a1da-18094b792c24: Common # Common
+    579c0fbf-ee3b-42ed-a05d-659ce95916e7: 'Rich Text' # Rich Text
+    01548255-ac52-442a-97cb-9a670f2be032: Home # Home
+    a00cdfe6-f9ce-4683-90ce-fc81d296b749: 'Craft CMS Demo' # Craft CMS Demo
+    fd9be23f-bcf7-48fb-aa11-90ea374b6d90: 'Craft CMS Demo' # Craft CMS Demo
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft CMS Demo'
+  schemaVersion: 3.7.7
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
