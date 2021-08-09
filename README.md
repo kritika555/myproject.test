@@ -26,8 +26,8 @@ Deploy the project in any platform xampp,wampp or nginx.
    Mysql database 
    import demopro.sql file 
 
-  The settings for the mysql is already in .env file which is included
-## Open the url in the browser to demonstrate the homepage :
+  ###The settings for the mysql is already in .env file which is included
+### Open the url in the browser to demonstrate the homepage :
 
  http://localhost/myproject.test/web/actions/demo-module/default/task
  
